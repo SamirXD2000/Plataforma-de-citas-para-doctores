@@ -1,0 +1,78 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+
+html body
+{
+	margin: 20px;
+	padding: 20px;
+	background-image: url('images/14025.jpg');
+	font-family: 'Lato';
+}
+
+.h1
+{
+	color: white;
+
+}
+
+div
+{
+	padding-top: 26px;
+	width: 350px;
+	height: 100px;
+	background-color: #ffc246;
+	transition: background-color .2s;
+	transition: transform .2s;
+	border-radius: 6px;
+	color: white;
+	font-family: 'Arial';
+	font-size: 15px;
+	text-align: center;
+}
+
+div:hover
+{
+	background-color: #ff9d3f;
+	transform: scale(1.1);
+}
+
+div:focus
+{
+	outline:none;
+}
+
+input:focus
+{
+	outline:none;
+	text-decoration: none;
+}
+
+.dr
+{
+	position: absolute;
+	z-index: 2;
+	left: 150px;
+	top: 30px;
+}
+
+.citas
+{
+	position: absolute;
+	z-index: 2;
+	left: 550px;
+	top: 330px;
+
+}
+
+.pacientes
+{
+	position: absolute;
+	z-index: 2;
+	top: 600px;
+	left: 1000px;
+}
+

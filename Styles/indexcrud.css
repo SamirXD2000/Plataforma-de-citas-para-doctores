@@ -1,0 +1,59 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+
+html body
+{
+	margin: 20px;
+	padding: 20px;
+	background-image: url('../images/fondocrud.jpg');
+	font-family: 'Lato';
+}
+
+img
+{
+	position: absolute;
+	z-index: 3;
+	
+}
+
+.btnNuevo
+{
+	background-color: black;
+	font-size: 20px;
+	border-radius: 90px;
+	transition: padding .2s;
+	color: white;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.btnNuevo:hover
+{
+	font-style: none;
+	color: white;
+	padding: 8px;
+}
+
+.snake
+{
+	top: 600px;
+	width: 100px;
+	transition: transform .2s;
+}
+
+.snake:hover
+{
+
+	transform: scale(1.1);
+}
+
+input
+{
+	border-radius: 3px;
+	border-style: none;
+	padding: 3px;
+}

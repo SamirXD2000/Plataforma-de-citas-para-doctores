@@ -1,0 +1,48 @@
+@font-face
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Regular.ttf')
+}
+
+
+html body
+{
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Lato';
+	background-color: #72AE54;
+}
+
+input
+{
+	color: black;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 6px;
+	background-color: #F0F0F0;
+	margin: 10px;
+}
+
+input .btnCancelar
+{
+	border-radius: 5px;
+	font-size: 20px;
+	transition: transform .2s;
+	background-color: #FFBC3D;
+}
+
+.btnCancelar:hover
+{
+	transform: scale(1.1);
+}
+
+.backg
+{
+	z-index: 1;
+	margin-left: 700px;
+	background-color: #FFBC3D;
+}
+
+input, button:focus {
+    outline:none;
+}
